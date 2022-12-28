@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  /* color: #fff !important; */
+}
+
+.App {
+  text-align: center;
+}
+
+h1,
+p {
+  color: #000 !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* .d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+} */
+
+.data h1 {
+  text-align: center;
+}
+
+.t-center {
+  text-align: center;
+}
+
+
+
+.data-flex.align-center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ant-form {
+  width: 100%;
+}
+
+.error-text {
+  color: rgb(218, 35, 35);
+}
+
+.error-border {
+  border: 1px solid rgb(218, 35, 35) !important;
+}
+
+.ant-form-item-label>label {
+  color: #000 !important;
+}
+
+/* .bg-home {
+  background-color: #104966e3;
+} */
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1450px;
+}
+
+.user-avtar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*  */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+  .container-custom {
+    max-width: 100%;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+a.template-customizer-open-btn {
+  display: none !important;
+}
+.App-link {
+  color: #61dafb;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

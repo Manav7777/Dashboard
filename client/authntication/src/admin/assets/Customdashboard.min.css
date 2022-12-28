@@ -1,0 +1,4 @@
+.bg-menu-theme {
+    background-color: var(--bs-dark) !important;
+    color: #697a8d;
+}

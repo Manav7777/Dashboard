@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto',sans-serif !important;
+}
+.m-width{
+    max-width: 500px;
+}
+.head-height{
+    width: 100%;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+/* ****************************************************************** */
+.inner-home-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.inner-home-wrapper h1{
+    text-align: left;
+    line-height: 55px;
+    width: 100%;
+}
+.add-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+.column {
+    width: 100%;
+    padding: 0 20px 10px 0;
+    text-align: center;
+  }
+.custom-card{
+    width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.inner-service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
